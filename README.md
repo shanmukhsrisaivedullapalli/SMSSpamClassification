@@ -24,7 +24,7 @@ SMSSpamClassification/
 **Data**
 
 * The dataset utilized for this project is the publicly accessible SMS Spam Collection dataset.
-* Raw data is stored in the `data/raw` directory.
+* Raw data is stored in the `data` directory.
 
 **Notebooks**
 
