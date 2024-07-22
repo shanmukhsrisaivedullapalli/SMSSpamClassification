@@ -15,8 +15,7 @@ This repository houses the code for an SMS spam classification project. It encom
 SMSSpamClassification/
 ├── data/
 │   ├── raw/
-│   │   └── spam.csv
-│   └── processed/
+│   │   └── SMSSpamCollection.csv
 ├── models/
 │   ├── feature_extraction.pkl
 │   └── spam_detection_model.pkl
@@ -30,7 +29,6 @@ SMSSpamClassification/
 
 * The dataset utilized for this project is the publicly accessible SMS Spam Collection dataset.
 * Raw data is stored in the `data/raw` directory.
-* Preprocessed data is saved in the `data/processed` folder.
 
 **Notebooks**
 
@@ -47,7 +45,7 @@ SMSSpamClassification/
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/your-username/SMSSpamClassification.git
+   [git clone https://github.com/your-username/SMSSpamClassification.git](https://github.com/shanmukhsrisaivedullapalli/SMSSpamClassification.git)
    ```
 2. Create a virtual environment:
    ```bash
@@ -72,17 +70,3 @@ Contributions are welcome! You can enhance the project by:
 * Experimenting with various classification algorithms.
 * Improving model performance through hyperparameter tuning.
 * Enhancing the project's documentation.
-
-**License**
-
-This project is licensed under the MIT License.
-
-**Additional Notes**
-
-* Consider incorporating more detailed explanations of the data preprocessing steps, TF-IDF vectorization process, and model evaluation metrics.
-* Include visualizations to better understand the data and model performance.
-* Explore techniques to improve model interpretability.
-
-By following these guidelines, you can create a comprehensive and informative README for your SMS spam classification project.
- 
-**Would you like to add more details about your model's performance or any specific challenges you encountered during development?**
