@@ -1,9 +1,6 @@
 ## GitHub Repository: SMSSpamClassification
 
-### Description
 **SMSSpamClassification** is a machine learning project focused on categorizing SMS messages as spam or ham (non-spam). Leveraging the SMSSpamCollection dataset, the project employs Natural Language Processing (NLP) techniques, specifically TF-IDF vectorization, to extract meaningful features from the text data. A Logistic Regression model is trained on these features to build a robust spam detection classifier.
-
-### README
 
 **SMSSpamClassification**
 
@@ -14,8 +11,7 @@ This repository houses the code for an SMS spam classification project. It encom
 ```
 SMSSpamClassification/
 ├── data/
-│   ├── raw/
-│   │   └── SMSSpamCollection.csv
+│   └── SMSSpamCollection.csv
 ├── models/
 │   ├── feature_extraction.pkl
 │   └── spam_detection_model.pkl
